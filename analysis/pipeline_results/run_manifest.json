@@ -1,0 +1,16 @@
+{
+  "dataset_repo": "EleutherAI/hendrycks_math",
+  "split_size": 100,
+  "shuffle_seed": 42,
+  "teacher_model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "student_model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "teacher_prompt_template": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\nYou are an expert in mathematics with a focus on teaching other users and models how to reason about math.\nA user has asked the math problem below. Your task is to generate one CONCISE explanation for how to\narrive at the problem's solution that accomplishes the following:\n\n1) The explanation would allow another user/model to figure out how to answer the problem correctly\n2) The explanation is pedagogical, consisting of high-level approaches and conceptual strategy without writing\nout any of the actual intermediate mathematical steps. Mentioning high-level, general formulas, theorems,\nor identities is fine\n\nPlease format your response as follows, making sure to include all special tags:\n\n---\n\n<explain>\n# Step 1: ...\n# Step 2: ...\n...\n</explain>\n\nInclude any additional non-pedagogical reasoning steps you require to solve the problem here, outside the tags.\n\nThe final part of your response should be the numerical answer included in \\boxed{{}}.\n\n---\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\nProblem: {problem}\n<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n",
+  "student_prompt_template": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\nYou are a skilled math problem solver. Below, the user has given you a math problem, possibly along with an\nexpert explanation that outlines the strategy, relevant formulas, and common pitfalls for the problem.\n\nIf no explanation is provided, reason through the problem on your own and provide your final numerical answer at the\nend of your response in \\boxed{{}}. If there is an explanation, follow the below instructions:\n\nInstructions:\n1) Read the explanation thoroughly before attempting the problem\n2) Follow the general strategy outlined in the explanation\n3) Provide your final numerical answer at the end of your response in \\boxed{{}}\n\nCrucially, you must act as a student learning from a teacher's explanation. Do not rely on knowledge of mathematical\nconcepts or steps not mentioned in the explanation.\n<|eot_id|><|start_header_id|>user<|end_header_id|>\nProblem: {problem}\n\nExpert Explanation:\n{explanation}\n<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n",
+  "vanilla_prompt_template": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\nYou are an expert in mathematics and problem solving. Below, the user has asked you a math problem.\nReason through it carefully and step by step.\n\nThe final part of your response should be the numerical answer to the problem included in \\boxed{{}}.\n<|eot_id|><|start_header_id|>user<|end_header_id|>\nProblem: {problem}\n<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n",
+  "generation_kwargs": {
+    "max_new_tokens": 1000,
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "batch_size": 2
+  }
+}

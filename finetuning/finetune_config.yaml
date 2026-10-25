@@ -1,0 +1,20 @@
+verifier:
+  id: "meta-llama/Meta-Llama-3.1-8B-Instruct"
+
+training:
+  data_dir: dataset/  # path to directory with jsonl data files (train and test)
+  out_dir: without_bs_4/
+  lora:
+    rank: 16
+    alpha: 32
+    dropout: 0.15
+  eval_freq: 100
+  checkpoint_freq: 500
+  warmup: 0.1  # proportion of steps to be linear warmup
+  lr: 0.00005
+  batch_size: 4
+  epochs: 2
+  weight_decay: 0.1
+
+logging:
+  logging_freq: 10

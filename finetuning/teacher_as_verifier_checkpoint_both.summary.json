@@ -1,0 +1,7 @@
+{
+  "accuracy": 0.488,
+  "loss": 0.95846875,
+  "num_correct": 244,
+  "total": 500,
+  "checkpoint_path": "/home/medhy/cs224n-final-project/finetuning/teacher_as_verifier_checkpoint.jsonl"
+}

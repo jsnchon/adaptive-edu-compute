@@ -1,0 +1,17 @@
+{
+  "dataset_size": 100,
+  "accuracies": {
+    "teacher_entropy_stage": 0.41,
+    "student_no_explanation_stage": 0.33,
+    "student_with_explanation_stage": 0.36,
+    "vanilla_teacher": 0.53,
+    "vanilla_student": 0.42
+  },
+  "counts": {
+    "teacher_correct": 41,
+    "student_no_explanation_correct": 33,
+    "student_with_explanation_correct": 36,
+    "vanilla_teacher_correct": 53,
+    "vanilla_student_correct": 42
+  }
+}

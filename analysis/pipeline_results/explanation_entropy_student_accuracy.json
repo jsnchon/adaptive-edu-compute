@@ -1,0 +1,1011 @@
+{
+  "num_points_with_explanation_entropy": 57,
+  "correlations": {
+    "mean_entropy_nats": -0.16139935617204934,
+    "median_entropy_nats": 0.00820594288142208,
+    "p90_entropy_nats": -0.15739389235353052,
+    "num_tokens": 0.02234036340610093
+  },
+  "rows": [
+    {
+      "idx": 0,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 1,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 160,
+        "mean_entropy_nats": 0.41922689210623504,
+        "median_entropy_nats": 0.26853516697883606,
+        "p90_entropy_nats": 1.2652254104614258
+      }
+    },
+    {
+      "idx": 2,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 324,
+        "mean_entropy_nats": 0.18235225855936238,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6664177179336548
+      }
+    },
+    {
+      "idx": 3,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 4,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 5,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 352,
+        "mean_entropy_nats": 0.16179847293956715,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6810875535011292
+      }
+    },
+    {
+      "idx": 6,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 257,
+        "mean_entropy_nats": 0.3104786836915443,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 1.0112006664276123
+      }
+    },
+    {
+      "idx": 7,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 8,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 9,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 528,
+        "mean_entropy_nats": 0.11621594764856678,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.5633357763290405
+      }
+    },
+    {
+      "idx": 10,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 11,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 490,
+        "mean_entropy_nats": 0.21661780047781615,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.8142402172088623
+      }
+    },
+    {
+      "idx": 12,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 194,
+        "mean_entropy_nats": 0.22830606290360086,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6931471824645996
+      }
+    },
+    {
+      "idx": 13,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 14,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 15,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 548,
+        "mean_entropy_nats": 0.22491811262103764,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.8815187215805054
+      }
+    },
+    {
+      "idx": 16,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 135,
+        "mean_entropy_nats": 0.41826902252656445,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 1.2761657238006592
+      }
+    },
+    {
+      "idx": 17,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 18,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 19,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 20,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 21,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 423,
+        "mean_entropy_nats": 0.12215375523336108,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6223033666610718
+      }
+    },
+    {
+      "idx": 22,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 199,
+        "mean_entropy_nats": 0.16657112898239537,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6391928195953369
+      }
+    },
+    {
+      "idx": 23,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 24,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 25,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 429,
+        "mean_entropy_nats": 0.1461986206419818,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.5942760109901428
+      }
+    },
+    {
+      "idx": 26,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 164,
+        "mean_entropy_nats": 0.29393565082331985,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.9536373019218445
+      }
+    },
+    {
+      "idx": 27,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 28,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 29,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 167,
+        "mean_entropy_nats": 0.33894389153954513,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 1.013803482055664
+      }
+    },
+    {
+      "idx": 30,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 31,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 156,
+        "mean_entropy_nats": 0.2775259426771066,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.9698314666748047
+      }
+    },
+    {
+      "idx": 32,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 186,
+        "mean_entropy_nats": 0.3670083220287036,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 1.032225489616394
+      }
+    },
+    {
+      "idx": 33,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 34,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 35,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 462,
+        "mean_entropy_nats": 0.24984255391152907,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.8996524214744568
+      }
+    },
+    {
+      "idx": 36,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 37,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 313,
+        "mean_entropy_nats": 0.19405802527365212,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6810875535011292
+      }
+    },
+    {
+      "idx": 38,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 151,
+        "mean_entropy_nats": 0.9661054731599542,
+        "median_entropy_nats": 0.9259615540504456,
+        "p90_entropy_nats": 1.9997481107711792
+      }
+    },
+    {
+      "idx": 39,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 187,
+        "mean_entropy_nats": 0.19322927359909936,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6901047229766846
+      }
+    },
+    {
+      "idx": 40,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 176,
+        "mean_entropy_nats": 0.692298670638014,
+        "median_entropy_nats": 0.47116395831108093,
+        "p90_entropy_nats": 1.9005088806152344
+      }
+    },
+    {
+      "idx": 41,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 244,
+        "mean_entropy_nats": 0.22470371339653358,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.8352358341217041
+      }
+    },
+    {
+      "idx": 42,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 230,
+        "mean_entropy_nats": 0.14437715249217076,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6664177179336548
+      }
+    },
+    {
+      "idx": 43,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 44,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 363,
+        "mean_entropy_nats": 0.205829620197128,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6901047229766846
+      }
+    },
+    {
+      "idx": 45,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 46,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 420,
+        "mean_entropy_nats": 0.29360705585706803,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 1.04048490524292
+      }
+    },
+    {
+      "idx": 47,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 48,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 49,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 332,
+        "mean_entropy_nats": 0.27440789979265395,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 1.0122548341751099
+      }
+    },
+    {
+      "idx": 50,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 75,
+        "mean_entropy_nats": 0.14515629371007283,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.5303041934967041
+      }
+    },
+    {
+      "idx": 51,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 152,
+        "mean_entropy_nats": 0.6341509640608963,
+        "median_entropy_nats": 0.5633357763290405,
+        "p90_entropy_nats": 1.4533913135528564
+      }
+    },
+    {
+      "idx": 52,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 90,
+        "mean_entropy_nats": 0.3339550677273009,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 1.151804804801941
+      }
+    },
+    {
+      "idx": 53,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 54,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 205,
+        "mean_entropy_nats": 0.2666943809608134,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.8611583709716797
+      }
+    },
+    {
+      "idx": 55,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 56,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 148,
+        "mean_entropy_nats": 0.7504855700441309,
+        "median_entropy_nats": 0.4610619843006134,
+        "p90_entropy_nats": 2.1008095741271973
+      }
+    },
+    {
+      "idx": 57,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 173,
+        "mean_entropy_nats": 0.2897452881742764,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.9026227593421936
+      }
+    },
+    {
+      "idx": 58,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 59,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 297,
+        "mean_entropy_nats": 0.19866461294267315,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6931471824645996
+      }
+    },
+    {
+      "idx": 60,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 209,
+        "mean_entropy_nats": 0.3381588905336754,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 1.0905237197875977
+      }
+    },
+    {
+      "idx": 61,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 62,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 63,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 273,
+        "mean_entropy_nats": 0.2742024167225911,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.9238240718841553
+      }
+    },
+    {
+      "idx": 64,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 65,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 312,
+        "mean_entropy_nats": 0.31368143741901106,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.9709599614143372
+      }
+    },
+    {
+      "idx": 66,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 67,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 331,
+        "mean_entropy_nats": 0.32491262176065644,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 1.052963137626648
+      }
+    },
+    {
+      "idx": 68,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 69,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 172,
+        "mean_entropy_nats": 0.37611549529571864,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 1.0721886157989502
+      }
+    },
+    {
+      "idx": 70,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 419,
+        "mean_entropy_nats": 0.13479296895086337,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.5633357763290405
+      }
+    },
+    {
+      "idx": 71,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 72,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 73,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 415,
+        "mean_entropy_nats": 0.20808220527258264,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6931471824645996
+      }
+    },
+    {
+      "idx": 74,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 152,
+        "mean_entropy_nats": 0.6433553358441905,
+        "median_entropy_nats": 0.5303041934967041,
+        "p90_entropy_nats": 1.6349356174468994
+      }
+    },
+    {
+      "idx": 75,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 428,
+        "mean_entropy_nats": 0.22724624378519637,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.7964531183242798
+      }
+    },
+    {
+      "idx": 76,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 338,
+        "mean_entropy_nats": 0.8115011850405022,
+        "median_entropy_nats": 0.5942760109901428,
+        "p90_entropy_nats": 2.160503625869751
+      }
+    },
+    {
+      "idx": 77,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 294,
+        "mean_entropy_nats": 0.4355789360393878,
+        "median_entropy_nats": 0.26853516697883606,
+        "p90_entropy_nats": 1.214135766029358
+      }
+    },
+    {
+      "idx": 78,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 200,
+        "mean_entropy_nats": 0.2396055355668068,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.9026227593421936
+      }
+    },
+    {
+      "idx": 79,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 80,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 81,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 437,
+        "mean_entropy_nats": 0.1847009233260864,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6931471824645996
+      }
+    },
+    {
+      "idx": 82,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 83,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 370,
+        "mean_entropy_nats": 0.16418404377795554,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6810875535011292
+      }
+    },
+    {
+      "idx": 84,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 288,
+        "mean_entropy_nats": 0.1305091220161153,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6223033666610718
+      }
+    },
+    {
+      "idx": 85,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 86,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 335,
+        "mean_entropy_nats": 0.07587066070357365,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.29686489701271057
+      }
+    },
+    {
+      "idx": 87,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 88,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 191,
+        "mean_entropy_nats": 0.14758483683251586,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6810875535011292
+      }
+    },
+    {
+      "idx": 89,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 90,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 145,
+        "mean_entropy_nats": 0.1589441890346593,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6466038823127747
+      }
+    },
+    {
+      "idx": 91,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 92,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 294,
+        "mean_entropy_nats": 0.25510481542267766,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.9447439908981323
+      }
+    },
+    {
+      "idx": 93,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 142,
+        "mean_entropy_nats": 0.6706884109847983,
+        "median_entropy_nats": 0.3427121043205261,
+        "p90_entropy_nats": 1.9344782829284668
+      }
+    },
+    {
+      "idx": 94,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 95,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 307,
+        "mean_entropy_nats": 0.2481194571485737,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.8851327896118164
+      }
+    },
+    {
+      "idx": 96,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 154,
+        "mean_entropy_nats": 0.6938384716193398,
+        "median_entropy_nats": 0.5302939414978027,
+        "p90_entropy_nats": 1.7773241996765137
+      }
+    },
+    {
+      "idx": 97,
+      "student_correct": true,
+      "explanation_entropy": {
+        "num_tokens": 205,
+        "mean_entropy_nats": 0.13077918967095817,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.6466038823127747
+      }
+    },
+    {
+      "idx": 98,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 0,
+        "mean_entropy_nats": null,
+        "median_entropy_nats": null,
+        "p90_entropy_nats": null
+      }
+    },
+    {
+      "idx": 99,
+      "student_correct": false,
+      "explanation_entropy": {
+        "num_tokens": 457,
+        "mean_entropy_nats": 0.24025994744681686,
+        "median_entropy_nats": 0.0,
+        "p90_entropy_nats": 0.8370004892349243
+      }
+    }
+  ]
+}

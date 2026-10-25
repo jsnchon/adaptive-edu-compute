@@ -1,0 +1,226 @@
+# general:
+#   metrics_out_dir: "pipeline_results"  # where to save the raw per-example teacher/student metrics 
+#   dataset_out_dir: "explanations_dataset"  # where to save the explanation quality dataset being generated
+#   vanilla_prompt_template: |
+#     <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+#     You are an expert in mathematics and problem solving. Below, the user has asked you a math problem.
+#     Reason through it carefully and step by step.
+
+#     The final part of your response should be the numerical answer to the problem included in \boxed{{}}.
+#     <|eot_id|><|start_header_id|>user<|end_header_id|>
+#     Problem: {problem}
+#     <|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+# pipeline:
+#   split_size: 100  # 1000  # set as null to use the entire dataset
+#   max_new_tokens: 1000  # 1024
+#   temperature: 0.8
+#   top_p: 0.9
+#   batch_size: 2  # increase on GPU memory headroom, e.g. 4 or 8
+
+# teacher_model:
+#   # id: meta-llama/Meta-Llama-3.1-8B-Instruct
+#   id: meta-llama/Llama-3.2-3B-Instruct
+#   prompt_template: | 
+#     <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+#     You are an expert in mathematics with a focus on teaching other users and models how to reason about math.
+#     A user has asked the math problem below. Your task is to generate one CONCISE explanation for how to
+#     arrive at the problem's solution that accomplishes the following:
+
+#     1) The explanation would allow another user/model to figure out how to answer the problem correctly
+#     2) The explanation is pedagogical, consisting of high-level approaches and conceptual strategy without writing
+#     out any of the actual intermediate mathematical steps. Mentioning high-level, general formulas, theorems,
+#     or identities is fine
+
+#     Please format your response as follows, making sure to include all special tags:
+
+#     ---
+
+#     <explain>
+#     # Step 1: ...
+#     # Step 2: ...
+#     ...
+#     </explain>
+
+#     Include any additional non-pedagogical reasoning steps you require to solve the problem here, outside the tags.
+
+#     The final part of your response should be the numerical answer included in \boxed{{}}.
+
+#     ---
+
+#     <|eot_id|><|start_header_id|>user<|end_header_id|>
+#     Problem: {problem}
+#     <|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+# student_model:
+#   id: meta-llama/Llama-3.2-3B-Instruct
+#   prompt_template: |
+#     <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+#     You are a skilled math problem solver. Below, the user has given you a math problem, possibly along with an
+#     expert explanation that outlines the strategy, relevant formulas, and common pitfalls for the problem.
+
+#     If no explanation is provided, reason through the problem on your own and provide your final numerical answer at the
+#     end of your response in \boxed{{}}. If there is an explanation, follow the below instructions:
+
+#     Instructions:
+#     1) Read the explanation thoroughly before attempting the problem
+#     2) Follow the general strategy outlined in the explanation
+#     3) Provide your final numerical answer at the end of your response in \boxed{{}}
+
+#     Crucially, you must act as a student learning from a teacher's explanation. Do not rely on knowledge of mathematical
+#     concepts or steps not mentioned in the explanation.
+#     <|eot_id|><|start_header_id|>user<|end_header_id|>
+#     Problem: {problem}
+
+#     Expert Explanation:
+#     {explanation}
+#     <|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+# general:
+#   metrics_out_dir: "pipeline_results"  # where to save the raw per-example teacher/student metrics 
+#   dataset_out_dir: "explanations_dataset"  # where to save the explanation quality dataset being generated
+#   vanilla_prompt_template: |
+#     <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+#     You are an expert in mathematics and problem solving. Below, the user has asked you a math problem.
+#     Reason through it carefully and step by step.
+
+#     The final part of your response should be the numerical answer to the problem included in \boxed{{}}.
+#     <|eot_id|><|start_header_id|>user<|end_header_id|>
+#     Problem: {problem}
+#     <|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+# pipeline:
+#   split_size: 100  # 1000  # set as null to use the entire dataset
+#   max_new_tokens: 1000  # 1024
+#   temperature: 0.8
+#   top_p: 0.9
+#   batch_size: 2  # increase on GPU memory headroom, e.g. 4 or 8
+
+# teacher_model:
+#   # id: meta-llama/Meta-Llama-3.1-8B-Instruct
+#   id: meta-llama/Llama-3.2-3B-Instruct
+#   prompt_template: | 
+#     <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+#     You are an expert in mathematics with a focus on teaching other users and models how to reason about math.
+#     A user has asked the math problem below. Your task is to generate one CONCISE explanation for how to
+#     arrive at the problem's solution that accomplishes the following:
+
+#     1) The explanation would allow another user/model to figure out how to answer the problem correctly
+#     2) The explanation is pedagogical, consisting of high-level approaches and conceptual strategy without writing
+#     out any of the actual intermediate mathematical steps. Mentioning high-level, general formulas, theorems,
+#     or identities is fine
+
+#     Please format your response as follows, making sure to include all special tags:
+
+#     ---
+
+#     <explain>
+#     # Step 1: ...
+#     # Step 2: ...
+#     ...
+#     </explain>
+
+#     Include any additional non-pedagogical reasoning steps you require to solve the problem here, outside the tags.
+
+#     The final part of your response should be the numerical answer included in \boxed{{}}.
+
+#     ---
+
+#     <|eot_id|><|start_header_id|>user<|end_header_id|>
+#     Problem: {problem}
+#     <|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+# student_model:
+#   id: meta-llama/Llama-3.2-3B-Instruct
+#   prompt_template: |
+#     <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+#     You are a skilled math problem solver. Below, the user has given you a math problem, possibly along with an
+#     expert explanation that outlines the strategy, relevant formulas, and common pitfalls for the problem.
+
+#     If no explanation is provided, reason through the problem on your own and provide your final numerical answer at the
+#     end of your response in \boxed{{}}. If there is an explanation, follow the below instructions:
+
+#     Instructions:
+#     1) Read the explanation thoroughly before attempting the problem
+#     2) Follow the general strategy outlined in the explanation
+#     3) Provide your final numerical answer at the end of your response in \boxed{{}}
+
+#     Crucially, you must act as a student learning from a teacher's explanation. Do not rely on knowledge of mathematical
+#     concepts or steps not mentioned in the explanation.
+#     <|eot_id|><|start_header_id|>user<|end_header_id|>
+#     Problem: {problem}
+
+#     Expert Explanation:
+#     {explanation}
+#     <|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+general:
+  split_size: 500  # set as null to use the entire dataset
+  metrics_out_dir: pipeline_results_500/
+  dataset_out_file: "verifier_dataset_generation/labeled_datasets/explanations_dataset.jsonl"  # where to save the explanation quality dataset being generated
+
+inference:
+  teacher_batch_size: 32
+  student_batch_size: 32
+  max_new_tokens: 1024
+  temperature: 0.8
+  top_p: 0.9
+
+teacher_model:
+  id: meta-llama/Meta-Llama-3.1-8B-Instruct
+  id: meta-llama/Meta-Llama-3.1-8B-Instruct
+  prompt_template: | 
+    <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+    You are an expert in mathematics with a focus on teaching other users and models how to reason about math.
+    A user has asked the math problem below. Your task is to generate one CONCISE explanation for how to
+    arrive at the problem's solution that accomplishes the following:
+
+    1) The explanation would allow another user/model to figure out how to answer the problem correctly
+    2) The explanation is pedagogical, consisting of high-level approaches and conceptual strategy without writing
+    out any of the actual intermediate mathematical steps. Mentioning high-level, general formulas, theorems,
+    or identities is fine
+    3) DO NOT INCLUDE THE ANSWER IN THE EXPLANATION.
+    3) DO NOT INCLUDE THE ANSWER IN THE EXPLANATION.
+
+    Please format your response as follows, making sure to include all special tags, especially the end tag "</explain>":
+    Please format your response as follows, making sure to include all special tags, especially the end tag "</explain>":
+
+    ---
+
+    <explain>
+    # Step 1: ...
+    # Step 2: ...
+    ...
+    </explain>
+
+    The final part of your response should be the numerical answer included in \boxed{{}}.
+
+    ---
+
+    <|eot_id|><|start_header_id|>user<|end_header_id|>
+    Problem: {problem}
+    <|eot_id|><|start_header_id|>assistant<|end_header_id|>
+    
+student_model:
+  id: meta-llama/Llama-3.2-3B-Instruct
+  prompt_template: |
+    <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+    You are a skilled math problem solver. Below, the user has given you a math problem, possibly along with an
+    expert explanation that outlines the strategy, relevant formulas, and common pitfalls for the problem.
+
+    If no explanation is provided, reason through the problem on your own and provide your final numerical answer at the
+    end of your response in \boxed{{}}. If there is an explanation, follow the below instructions:
+
+    Instructions:
+    1) Read the explanation thoroughly before attempting the problem
+    2) Follow the general strategy outlined in the explanation
+    3) Provide your final numerical answer at the end of your response in \boxed{{}}
+
+    Crucially, you must act as a student learning from a teacher's explanation. Do not rely on knowledge of mathematical
+    concepts or steps not mentioned in the explanation.
+    <|eot_id|><|start_header_id|>user<|end_header_id|>
+    Problem: {problem}
+
+    Expert Explanation:
+    {explanation}
+    <|eot_id|><|start_header_id|>assistant<|end_header_id|>
